@@ -22,7 +22,7 @@ export default function Prospectos(props){
     }
 
     const showFilter = (filter) => {
-        document.querySelector('#header').scrollIntoView({
+        document.querySelector('#table').scrollIntoView({
             behavior: 'smooth'
         });
         if(!filter){
@@ -100,7 +100,9 @@ export default function Prospectos(props){
                                 </div>
                             </div>
                         </div>
-                        <div className='box Three'>
+                        <div className='box Three' onClick={() => {
+                            showFilter('lost')
+                        }}>
                             <div className='containerBox'>
                                 <div className='topBox'>
                                     <BsWindow className='icon' />
@@ -225,7 +227,7 @@ export default function Prospectos(props){
                             loading || !data ?
                                 <h1>Cargando...</h1>
                             :
-                            <div className="table-container">
+                            <div className="table-container" id="table">
                                     <ListaProspectos data={data} user={user} />
                             </div>
                         }
