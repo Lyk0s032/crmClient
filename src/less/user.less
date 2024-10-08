@@ -1,0 +1,538 @@
+.panel{
+    .panelUser{
+        width:100%;
+        height:100vh;
+        box-sizing: border-box;
+        .containerPanel{
+            display: flex;
+            height:100%;
+            .navLeft{
+                width:20%;
+                box-sizing: border-box;
+                height:100%;
+
+                .leftNav{
+                    height:100%;
+
+                    .containerNav{
+                        height: 100%;
+                        padding:0px 10px;
+                        box-sizing: border-box;
+                        .topLogo{
+                            height:10%;
+                            margin-left:auto;
+                            box-sizing: border-box;
+                            display: flex;
+                            align-items: center;
+                            padding:0px 20px;
+                            h3{
+                                font-size: 24px;
+                                font-weight: 400;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                    .containerOptions{
+                        height:80%;
+                        box-sizing: border-box;
+                        .scrollNav{
+                            height:100%;
+                            overflow-y: auto;
+
+                            nav{
+                                margin-bottom: 30px;
+                                border-bottom: 0.5px solid #ccc;
+                                padding:20px 0px;
+                                .title{
+                                    padding:0px 20px;
+                                    strong{
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        color: black;
+                                    }
+                                }
+                                ul{
+                                    margin-top:10px;
+                                    box-sizing: border-box;
+                                    
+                                    li{
+                                        padding:10px 30px;
+                                        box-sizing: border-box;
+                                        border-radius: 20px;
+                                        cursor: pointer;
+                                        transition: .3s;
+                                        div{
+                                            span{
+                                                font-size: 12px;
+                                                font-weight: 300;
+                                                color: #666;
+                                            }
+                                        }
+                                    }
+                                    li.active{
+                                        background-color: #ccc;
+                                    }
+                                    li:hover{
+                                        background-color: #ccc;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                    .bottom-nav{
+                        height:10%;
+                        nav{
+                            height:100%;
+                            width:90%;
+                            margin:auto;
+                            ul{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                height:100%;
+                                li{
+                                    display: inline-block;
+                                    cursor: pointer;
+                                    span{
+                                        font-size: 14px;
+                                        color: #666;
+                                    }
+                                }
+                                li:hover{
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .containerDataPanel{
+                box-sizing: border-box;
+                width: 80%;
+                height:100%;
+
+                .topNav{
+                    height:10%;
+                    box-sizing: border-box;
+                    nav{
+                        width:20%;
+                        margin-left: auto; 
+                        text-align: center;
+                        height: 100%;                   
+                        padding:0px 40px;           
+                        box-sizing: border-box;             
+                        ul{
+                            justify-content: end;
+                            display: flex;
+                            height:100%;
+                            align-items: center;
+                            li{
+                                display: inline-block;  
+                            }
+                        }                       
+                    }
+                }
+                .divPanel{
+                    height:90%;
+                    width:100%;
+                    box-sizing: border-box;
+                    .containerScroll{
+                        height:100%;
+                        overflow-y: auto;
+                        box-sizing: border-box;
+
+                        // Inicio.
+                        .welcomenUser{
+                            .containerWelcomen{
+                                box-sizing: border-box;
+
+                                .bigName{
+                                    width:100%;
+                                    padding:50px 0px;
+                                    text-align: center;
+                                    .containerBigName{
+                                        text-align: center;
+                                        width:80%;
+                                        margin:auto;
+                                        h1{
+                                            font-size: 52px;
+                                            font-weight: 200;
+                                            margin:10px 0px;
+                                        }
+                                        h3{
+                                            font-size: 22px;
+                                            font-weight: 400;
+                                            letter-spacing: 1px;
+                                        }
+                                        button{
+                                            margin-top:10px;
+                                            width:30%;
+                                            border-radius: 20px;
+                                            background-color: blue;
+                                            padding:10px 0px;
+                                            border:1px solid blue;
+                                            margin-top:40px;
+                                        }
+                                    }
+                                }
+                                .divBoxHorizontal{
+                                    margin-top:10px;
+                                    box-sizing: border-box;
+                                    .containerBoxHorizontal{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        width: 90%;
+                                        margin:auto;
+                                        padding:20px 0px;
+                                        box-sizing: border-box;
+                                        .smallBox{
+                                            width:45%;
+                                            padding:30px 20px;
+                                            box-sizing: border-box;
+                                            border:1px solid #ccc;
+                                            border-radius: 10px;
+                                            .topSmallBox{
+                                                padding:10px;
+                                                border-bottom:1px solid #ccc;
+                                                box-sizing: border-box;
+                                            
+                                                h1{
+                                                    font-weight: 400;
+                                                    margin:10px 0px;
+                                                    font-size: 26px;
+                                                }
+                                                span{
+                                                    font-size: 14px;
+                                                }
+                                            }
+                                            .smallInformation{
+                                                padding:10px;
+                                                box-sizing: border-box;
+                                                button{
+                                                    background-color: transparent;
+                                                    border:none;
+                                                    cursor: pointer;
+                                                    span{
+                                                        color: blue;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .largeDivContainer{
+                                    width:90%;
+                                    margin:50px auto;
+                                    .containerDivLarge{
+                                        width:100%;
+                                        .top{
+                                            padding:30px 0px;
+                                            border-bottom:1px solid #ccc;
+                                        
+                                            .header{
+                                                h1{
+                                                    font-weight: 300;
+                                                    margin-bottom: 10px;
+                                                }
+                                            }
+                                            .information{
+                                                span{
+                                                    font-size: 14px;
+                                                    color: #666;
+                                                }
+                                            }
+                                        }
+                                        .bottomBoxLarge{
+                                            width:100%;
+                                            padding:20px;
+                                            box-sizing: border-box;
+                                            text-align: right;
+
+                                            button{
+                                                background-color: blue;
+                                                border:1px solid blue;
+                                                padding:8px;
+                                                width:20%;
+                                                cursor: pointer;
+                                                box-sizing: border-box;
+                                                border-radius: 20px;
+                                                span{
+                                                    color: white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        // Projects
+                        .projects{
+                            .projectsContainer{
+                                width:90%;
+                                margin:auto;
+
+                                .navTop{
+                                    width:100%;
+                                    box-sizing: border-box;
+
+                                    nav{
+                                        ul{
+                                            li{
+                                                display: inline-block;
+                                                padding:10px 20px;
+                                                box-sizing: border-box;
+                                                cursor: pointer;
+                                                div{
+                                                    span{
+                                                        transition: .3s;
+                                                        font-size: 12px;
+                                                        color: #666;
+                                                    }
+                                                }
+                                            }
+                                            li:hover{
+                                                div{
+                                                    span{
+                                                        color: blue;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .searchDiv{
+                                    margin-top:30px;
+                                    width:100%;
+                                    .input{
+                                        text-align: center;
+                                        input{
+                                            width:60%;
+                                            border:1px solid #ccc;
+                                            padding:15px 20px;
+                                            box-sizing: border-box;
+                                            border-radius: 30px;
+                                            margin:auto;
+                                        }
+                                    }
+                                }
+                                .divDividerLarger{
+                                    width:100%;
+                                    margin-top:30px;
+                                    .divDividerContainer{
+                                        display: flex;
+                                        align-items: start;
+                                        justify-content: space-between;
+
+                                        .containerLefts{
+                                            width:60%;
+                                            box-sizing: border-box;
+
+                                            .projectsLists{
+                                                box-sizing: border-box;
+                                                padding:0px 10px;
+                                                box-sizing: border-box;
+
+                                                .listsContainer{
+                                                    box-sizing: border-box;
+                                                    .title{
+                                                        padding:10px 0px;
+                                                        box-sizing: border-box;
+                                                        border-bottom: 1px solid #ccc;
+
+                                                        h3{
+                                                            font-weight: 300;
+                                                            font-size: 14px;
+                                                        }
+                                                    }
+                                                    .lists{
+                                                        margin-top:10px;
+                                                        
+                                                        .item{
+                                                            box-sizing: border-box;
+                                                            padding:10px 10px;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: space-between;
+                                                            cursor: pointer;
+                                                            transition: .3s;
+                                                            .info{
+                                                                width:30%;
+
+                                                                display: flex;
+                                                                align-items: end;
+                                                                .icon{
+                                                                    margin-right: 10px;
+                                                                    
+                                                                }
+                                                                .name{
+                                                                    h3{
+                                                                        font-weight: 400;
+                                                                        font-size: 14px;
+                                                                        font-style: italic;
+                                                                        color: #666;
+                                                                    }
+                                                                }
+                                                            }
+                                                            .desc{
+                                                                width:40%;
+                                                                display: flex;
+                                                                align-items: center;
+                                                                justify-content: space-between;
+                                                                .members{
+                                                                    h3{
+                                                                        font-size: 14px;
+                                                                        font-weight: 400;
+                                                                        color: #666;
+                                                                    }
+                                                                }
+                                                                .notifications{
+                                                                    button{
+                                                                        width:20px;
+                                                                        height:20px;
+                                                                        background-color: #1d80f4;
+                                                                        border:1px solid #1d80f4;
+                                                                        border-radius: 10px;
+                                                                        span{
+                                                                            color: white;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            .navConfig{
+                                                                width:20%;
+                                                                text-align: right;
+                                                                nav{
+                                                                    width:auto;
+                                                                    margin-left:auto;
+                                                                    ul{
+                                                                        text-align: right;
+                                                                        width: 100%;
+                                                                        li{
+                                                                            width:auto;
+                                                                            display: inline-block;
+                                                                        
+                                                                            button{
+                                                                                background-color: transparent;
+                                                                                border:none;
+                                                                                cursor: pointer;
+
+                                                                                .icon{
+                                                                                    font-size: 26px;
+                                                                                    color: blue;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        .item:hover{
+                                                            transform: translateX(2%)
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .boxOptions{
+                                            width:40%;
+                                            box-sizing: border-box;
+
+                                            .containerBoxOptions{
+                                                padding:10px;
+                                                box-sizing: border-box;
+
+                                                .topBox{
+                                                    border:1px solid #ccc;
+                                                    border-radius: 10px;
+                                                    padding:20px;
+                                                    box-sizing: border-box;
+                                                    .divideText{
+                                                        box-sizing: border-box;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        .icon{
+                                                            margin-right: 20px;
+                                                            font-size: 34px;
+                                                            color: blue;
+                                                        }
+                                                        span{
+                                                            font-size: 15px;
+                                                            color: #666;
+                                                        }
+                                                    }
+                                                    button{
+                                                        width:100%;
+                                                        border-radius: 20px;
+                                                        background-color: transparent;
+                                                        border:1px solid #ccc;
+                                                        padding:10px;
+                                                        box-sizing: border-box;
+                                                        margin-top:20px;
+                                                        span{
+                                                            color: blue;
+                                                        }
+                                                    }
+                                                }
+                                                .questions{
+                                                    margin-top:20px;
+                                                    box-sizing: border-box;
+                                                    border:1px solid #ccc;
+                                                    border-radius: 10px;
+                                                    
+
+                                                    .containerQuestions{
+                                                        padding:10px 20px;
+                                                        box-sizing: border-box;
+                                                        .title{
+                                                            border-bottom: 1px solid #ccc;
+                                                            padding:10px 0px;
+                                                            h3{
+                                                                font-weight: 300;
+                                                                font-size: 16px;
+                                                            }
+                                                        }
+                                                        .listQuestions{
+                                                            padding:20px 0px;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: space-between;
+                                                            flex-wrap: wrap;
+
+                                                            button{
+                                                                margin-bottom: 10px;
+                                                                padding:8px 15px;
+                                                                box-sizing: border-box;
+                                                                border:1px solid #ccc;
+                                                                border-radius: 20px;
+                                                                background-color: rgb(230,244,234);
+                                                                border:1px solid rgb(230,244,234);
+                                                                cursor: pointer;
+                                                                transition: .3s;
+                                                                span{
+                                                                    color: rgb(19, 115, 51);
+                                                                }
+                                                            }
+                                                            button:hover:hover{
+                                                                transform: scale(1.1);
+                                                            }
+                                                        }
+                                                    }
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

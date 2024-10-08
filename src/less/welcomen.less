@@ -1,0 +1,170 @@
+.app{
+    .sign{
+        height:100vh;
+        box-sizing: border-box;
+        .in{
+            .containerIn{
+                padding:20px;
+                box-sizing: border-box;
+
+                .form{
+                    width:50%;
+                    margin:auto;
+                    .containerForm{
+                        box-sizing: border-box;
+                        padding:10px;
+                        box-sizing: border-box;
+                        .signH1{
+                            width:90%;
+                            margin:30px auto;
+                        }
+                        .topForm{
+                            padding:10px;
+                            box-sizing: border-box;
+
+                            .divInput{
+                                width:90%;
+                                margin:auto;
+
+                                label{
+                                    font-size: 12px;
+                                }
+                                input{
+                                    margin-top:20px;
+                                    width:100%;
+                                    padding:10px;
+                                    padding-left:0px;
+                                    box-sizing: border-box;
+                                    border:none;
+                                    border-bottom: 1px solid #ccc;
+                                    outline: 0px;
+                                    transition: .3s;
+                                    color: #666;
+                                }
+                                
+                                input:focus{
+                                    color: #3457B1;
+                                    border-bottom: 1px solid #3457B1;
+                                }
+                                .mistake{
+                                    font-size: 14px;
+                                    color: rgb(127, 7, 7)
+                                }
+                            }
+                            .btn{
+                                margin:auto;
+                                margin-top:30px;
+                                width:90%;
+                                button{
+                                    width:100%;
+                                    border:none;
+                                    background-color: #3457B1;
+                                    padding:10px;
+                                    box-sizing: border-box;
+                                    border-radius: 5px;
+                                    cursor: pointer;
+                                    transition: .3s;
+                                    span{
+                                        font-size: 14px;
+                                        color: white;
+                                        font-weight: 300;
+                                    }
+                                }
+                                button:hover{
+                                    transform: scale(1.1);
+                                }
+                            }
+                            .message{
+                                width:90%;
+                                margin:auto;
+                                margin-top:30px;
+                                text-align: center;
+
+                                span{
+                                    cursor: pointer;
+                                    font-weight: 300;
+                                    color: #3457B1;
+                                    font-size: 14px;
+                                }
+                                span:hover{
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                        .or{
+                            padding:10px;
+                            box-sizing: border-box;
+                            display: flex;
+                            width:90%;
+                            margin:20px auto;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .line{
+                                width:45%;
+                                border-bottom:1px solid #cecece;
+                                
+                            }
+                            span{
+                                color: black;
+                                font-weight: 100;
+                                font-size: 14px;
+                            }
+                        }
+                        .bottom{
+                            width:100%;
+                            text-align: center;
+                            button{
+                                padding:10px;
+                                cursor: pointer;
+                                background-color: black;
+                                box-sizing: border-box;
+                                width:80%;
+                                border-radius: 20px;
+                                border:none;
+
+                                span{
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .navHome{
+        box-sizing: border-box;
+        width:100%;
+
+        .containerNav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:20px 30px;
+            box-sizing: border-box;
+
+            .text{
+                h3{
+                    font-weight: 400;
+                    letter-spacing: 2px;
+                    font-size: 24px;
+                }
+            }
+            .options{
+                ul{
+                    li{
+                        display: inline-block;
+
+                        span{
+                            font-size: bold;
+                            color: #666;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

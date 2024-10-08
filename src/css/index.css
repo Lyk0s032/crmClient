@@ -1,0 +1,3986 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  scrollbar-width: thin;
+  scrollbar-color: #6F7E8C;
+}
+.app .sign {
+  height: 100vh;
+  box-sizing: border-box;
+}
+.app .sign .in .containerIn {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.app .sign .in .containerIn .form {
+  width: 50%;
+  margin: auto;
+}
+.app .sign .in .containerIn .form .containerForm {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.app .sign .in .containerIn .form .containerForm .signH1 {
+  width: 90%;
+  margin: 30px auto;
+}
+.app .sign .in .containerIn .form .containerForm .topForm {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .divInput {
+  width: 90%;
+  margin: auto;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .divInput label {
+  font-size: 12px;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .divInput input {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: 0px;
+  transition: 0.3s;
+  color: #666;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .divInput input:focus {
+  color: #3457B1;
+  border-bottom: 1px solid #3457B1;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .divInput .mistake {
+  font-size: 14px;
+  color: #7f0707;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .btn {
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .btn button {
+  width: 100%;
+  border: none;
+  background-color: #3457B1;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .btn button span {
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .btn button:hover {
+  transform: scale(1.1);
+}
+.app .sign .in .containerIn .form .containerForm .topForm .message {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .message span {
+  cursor: pointer;
+  font-weight: 300;
+  color: #3457B1;
+  font-size: 14px;
+}
+.app .sign .in .containerIn .form .containerForm .topForm .message span:hover {
+  text-decoration: underline;
+}
+.app .sign .in .containerIn .form .containerForm .or {
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.app .sign .in .containerIn .form .containerForm .or .line {
+  width: 45%;
+  border-bottom: 1px solid #cecece;
+}
+.app .sign .in .containerIn .form .containerForm .or span {
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
+}
+.app .sign .in .containerIn .form .containerForm .bottom {
+  width: 100%;
+  text-align: center;
+}
+.app .sign .in .containerIn .form .containerForm .bottom button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: black;
+  box-sizing: border-box;
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+}
+.app .sign .in .containerIn .form .containerForm .bottom button span {
+  color: white;
+}
+.app .navHome {
+  box-sizing: border-box;
+  width: 100%;
+}
+.app .navHome .containerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.app .navHome .containerNav .text h3 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+.app .navHome .containerNav .options ul li {
+  display: inline-block;
+}
+.app .navHome .containerNav .options ul li span {
+  font-size: bold;
+  color: #666;
+  font-size: 14px;
+}
+.panel .panelUser {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel {
+  display: flex;
+  height: 100%;
+}
+.panel .panelUser .containerPanel .navLeft {
+  width: 20%;
+  box-sizing: border-box;
+  height: 100%;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav {
+  height: 100%;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerNav {
+  height: 100%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerNav .topLogo {
+  height: 10%;
+  margin-left: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerNav .topLogo h3 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions {
+  height: 80%;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav {
+  height: 100%;
+  overflow-y: auto;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav nav {
+  margin-bottom: 30px;
+  border-bottom: 0.5px solid #ccc;
+  padding: 20px 0px;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav nav .title {
+  padding: 0px 20px;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav nav .title strong {
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav nav ul {
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav nav ul li {
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav nav ul li div span {
+  font-size: 12px;
+  font-weight: 300;
+  color: #666;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav nav ul li.active {
+  background-color: #ccc;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .containerOptions .scrollNav nav ul li:hover {
+  background-color: #ccc;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .bottom-nav {
+  height: 10%;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .bottom-nav nav {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .bottom-nav nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .bottom-nav nav ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .bottom-nav nav ul li span {
+  font-size: 14px;
+  color: #666;
+}
+.panel .panelUser .containerPanel .navLeft .leftNav .bottom-nav nav ul li:hover {
+  text-decoration: underline;
+}
+.panel .panelUser .containerPanel .containerDataPanel {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+}
+.panel .panelUser .containerPanel .containerDataPanel .topNav {
+  height: 10%;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .topNav nav {
+  width: 20%;
+  margin-left: auto;
+  text-align: center;
+  height: 100%;
+  padding: 0px 40px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .topNav nav ul {
+  justify-content: end;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.panel .panelUser .containerPanel .containerDataPanel .topNav nav ul li {
+  display: inline-block;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel {
+  height: 90%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll {
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen {
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .bigName {
+  width: 100%;
+  padding: 50px 0px;
+  text-align: center;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .bigName .containerBigName {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .bigName .containerBigName h1 {
+  font-size: 52px;
+  font-weight: 200;
+  margin: 10px 0px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .bigName .containerBigName h3 {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .bigName .containerBigName button {
+  margin-top: 10px;
+  width: 30%;
+  border-radius: 20px;
+  background-color: blue;
+  padding: 10px 0px;
+  border: 1px solid blue;
+  margin-top: 40px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal {
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal .containerBoxHorizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal .containerBoxHorizontal .smallBox {
+  width: 45%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal .containerBoxHorizontal .smallBox .topSmallBox {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal .containerBoxHorizontal .smallBox .topSmallBox h1 {
+  font-weight: 400;
+  margin: 10px 0px;
+  font-size: 26px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal .containerBoxHorizontal .smallBox .topSmallBox span {
+  font-size: 14px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal .containerBoxHorizontal .smallBox .smallInformation {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal .containerBoxHorizontal .smallBox .smallInformation button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .divBoxHorizontal .containerBoxHorizontal .smallBox .smallInformation button span {
+  color: blue;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .largeDivContainer {
+  width: 90%;
+  margin: 50px auto;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .largeDivContainer .containerDivLarge {
+  width: 100%;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .largeDivContainer .containerDivLarge .top {
+  padding: 30px 0px;
+  border-bottom: 1px solid #ccc;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .largeDivContainer .containerDivLarge .top .header h1 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .largeDivContainer .containerDivLarge .top .information span {
+  font-size: 14px;
+  color: #666;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .largeDivContainer .containerDivLarge .bottomBoxLarge {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .largeDivContainer .containerDivLarge .bottomBoxLarge button {
+  background-color: blue;
+  border: 1px solid blue;
+  padding: 8px;
+  width: 20%;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .welcomenUser .containerWelcomen .largeDivContainer .containerDivLarge .bottomBoxLarge button span {
+  color: white;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer {
+  width: 90%;
+  margin: auto;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .navTop {
+  width: 100%;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .navTop nav ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .navTop nav ul li div span {
+  transition: 0.3s;
+  font-size: 12px;
+  color: #666;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .navTop nav ul li:hover div span {
+  color: blue;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .searchDiv {
+  margin-top: 30px;
+  width: 100%;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .searchDiv .input {
+  text-align: center;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .searchDiv .input input {
+  width: 60%;
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin: auto;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger {
+  width: 100%;
+  margin-top: 30px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts {
+  width: 60%;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists {
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer {
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .title {
+  padding: 10px 0px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .title h3 {
+  font-weight: 300;
+  font-size: 14px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists {
+  margin-top: 10px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .info {
+  width: 30%;
+  display: flex;
+  align-items: end;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .info .icon {
+  margin-right: 10px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .info .name h3 {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .desc {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .desc .members h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .desc .notifications button {
+  width: 20px;
+  height: 20px;
+  background-color: #1d80f4;
+  border: 1px solid #1d80f4;
+  border-radius: 10px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .desc .notifications button span {
+  color: white;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .navConfig {
+  width: 20%;
+  text-align: right;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .navConfig nav {
+  width: auto;
+  margin-left: auto;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .navConfig nav ul {
+  text-align: right;
+  width: 100%;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .navConfig nav ul li {
+  width: auto;
+  display: inline-block;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .navConfig nav ul li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item .navConfig nav ul li button .icon {
+  font-size: 26px;
+  color: blue;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .containerLefts .projectsLists .listsContainer .lists .item:hover {
+  transform: translateX(2%);
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions {
+  width: 40%;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .topBox {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .topBox .divideText {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .topBox .divideText .icon {
+  margin-right: 20px;
+  font-size: 34px;
+  color: blue;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .topBox .divideText span {
+  font-size: 15px;
+  color: #666;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .topBox button {
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .topBox button span {
+  color: blue;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .questions {
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .questions .containerQuestions {
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .questions .containerQuestions .title {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .questions .containerQuestions .title h3 {
+  font-weight: 300;
+  font-size: 16px;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .questions .containerQuestions .listQuestions {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .questions .containerQuestions .listQuestions button {
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #e6f4ea;
+  border: 1px solid #e6f4ea;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .questions .containerQuestions .listQuestions button span {
+  color: #137333;
+}
+.panel .panelUser .containerPanel .containerDataPanel .divPanel .containerScroll .projects .projectsContainer .divDividerLarger .divDividerContainer .boxOptions .containerBoxOptions .questions .containerQuestions .listQuestions button:hover:hover {
+  transform: scale(1.1);
+}
+.panelCrm {
+  box-sizing: border-box;
+  height: 100vh;
+}
+.panelCrm .containerPanel {
+  height: 100%;
+  display: flex;
+}
+.panelCrm .containerPanel .navLeft {
+  height: 100%;
+  width: 20%;
+  box-sizing: border-box;
+  position: fixed;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM {
+  height: 100%;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM {
+  height: 100%;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .evolutionHeader {
+  height: 10%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  width: 90%;
+  margin: auto;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .evolutionHeader h1 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList {
+  height: 90%;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-y: auto;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav {
+  margin: auto;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav .title {
+  margin: 10px auto;
+  width: 90%;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav .title strong {
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav nav {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav nav ul {
+  width: 80%;
+  margin: auto;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav nav ul li {
+  padding: 10px 0px;
+  display: flex;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav nav ul li div {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav nav ul li div .icon {
+  font-size: 18px;
+  color: #666;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav nav ul li div span {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .navLeft .navLeftCRM .containerNavCRM .navList .containerNav nav ul li:hover {
+  transform: translateX(5%);
+}
+.panelCrm .containerPanel .containerDataPanel {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav {
+  height: 80px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  text-align: right;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav {
+  box-sizing: border-box;
+  margin-left: auto;
+  width: 50%;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li {
+  display: inline;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li button {
+  border-radius: 20px;
+  padding: 8px 20px;
+  box-sizing: border-box;
+  border: 1px solid #1d80f4;
+  background-color: #1d80f4;
+  display: flex;
+  cursor: pointer;
+  transition: 0.3s;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li button .icon {
+  margin-right: 10px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li button span {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li button:hover {
+  transform: scale(1.1);
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li .div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li .div .name {
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li .div .name h3 {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li .div .name span {
+  color: #666;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li .div .photo {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li .div .photo h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li .div .icon {
+  font-size: 22px;
+}
+.panelCrm .containerPanel .containerDataPanel .topNav .topNavCRM .containerTopNav nav ul li .Help span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel {
+  box-sizing: border-box;
+  background-color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen {
+  padding: 40px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer {
+  width: 60%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer {
+  margin-bottom: 30px;
+  padding: 30px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations {
+  width: 90%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  display: flex;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation .op {
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation .op span {
+  font-size: 12px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation .op button {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: #1d80f4;
+  border: 2px solid #1d80f4;
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation .op button span {
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation .op button .icon {
+  font-size: 24px;
+  color: white;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation .op.One {
+  margin-top: 15%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation .op.Two {
+  margin-top: 5%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation button:hover {
+  background-color: white;
+  transform: translateY(-20%);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .headerAnimation button:hover .icon {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .draw {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .draw .img {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .draw .img img {
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .draw button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .animations .draw button span {
+  color: #1d80f4;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .bottomNavAnimation {
+  width: 90%;
+  margin: 20px auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .bottomNavAnimation .navAnimationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .bottomNavAnimation .navAnimationContainer button {
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border: 1px solid #1d80f4;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .bottomNavAnimation .navAnimationContainer button span {
+  color: #1d80f4;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .bottomNavAnimation .navAnimationContainer button:hover {
+  transform: translateX(5%);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .animationContainer .bottomNavAnimation .navAnimationContainer .left:hover {
+  transform: translateX(-5%);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .top {
+  background-color: #1d80f4;
+  border-radius: 5px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .top .containerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .top .containerTop .text {
+  width: 60%;
+  padding: 40px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .top .containerTop .text h1 {
+  font-weight: 400;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .top .containerTop .text h3 {
+  margin-top: 5px;
+  color: white;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .top .containerTop .img {
+  width: 40%;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions .containersOptionsBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions .containersOptionsBox .box {
+  background-color: white;
+  border-radius: 10px;
+  width: 32%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions .containersOptionsBox .box .containerBox .header {
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions .containersOptionsBox .box .containerBox .header h3 {
+  font-weight: 400;
+  color: black;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions .containersOptionsBox .box .containerBox .data {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions .containersOptionsBox .box .containerBox .data .icon {
+  font-size: 24px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions .containersOptionsBox .box .containerBox .data h1 {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .defaultContainer .boxOptions .containersOptionsBox .box .containerBox .text span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right {
+  width: 35%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .box {
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .box .icon {
+  font-size: 32px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .box h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  margin: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .box h3 {
+  font-weight: 300;
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .box button {
+  margin-top: 10px;
+  width: 40%;
+  margin-left: 60%;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #1d80f4;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .box button span {
+  vertical-align: middle;
+  color: #1d80f4;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .box button .icon {
+  vertical-align: middle;
+  color: #1d80f4;
+  font-size: 18px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .move {
+  margin: 10px 0px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .move button {
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .move button .icon {
+  font-size: 20px;
+  transition: 0.3s;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .move button:hover {
+  transform: scale(1.1);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .slideBox .move button:hover .icon {
+  color: black;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .newClient {
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .newClient .containerNewClient .header h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .newClient .containerNewClient .header span {
+  color: #666;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .newClient .containerNewClient .input {
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .newClient .containerNewClient .input input {
+  width: 70%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: 0px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .newClient .containerNewClient .input input:focus {
+  border-bottom: 1px solid black;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .newClient .containerNewClient .input button {
+  padding: 10px;
+  width: 30%;
+  box-sizing: border-box;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .welcomen .containerWelcomen .right .containerRight .newClient .containerNewClient .input button span {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients {
+  width: 90%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .close {
+  height: 10%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .close .business h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .close button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .close button .icon {
+  font-size: 24px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow {
+  height: 90%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow .leftBig {
+  width: 20%;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow .leftBig .containerLeft {
+  padding: 0px 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow .leftBig .containerLeft .nav {
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow .leftBig .containerLeft .nav nav ul li {
+  display: flex;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow .leftBig .containerLeft .nav nav ul li div {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 100%;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow .leftBig .containerLeft .nav nav ul li div span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow .leftBig .containerLeft .nav nav ul li:hover div {
+  background-color: #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .bigShow .containerBigShow .containerRight {
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #66666679;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal {
+  background-color: white;
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 5vh;
+  border-radius: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .headerBotton {
+  height: 10%;
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px 20px;
+  justify-content: end;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .headerBotton button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .headerBotton button .icon {
+  font-size: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer {
+  height: 90%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft {
+  height: 100%;
+  width: 100%;
+  padding: 0px 40px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft .topProspect {
+  height: 80%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft .topProspect .containerInfo {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft .topProspect .containerInfo .dataInfo {
+  margin: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft .topProspect .containerInfo .dataInfo span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft .topProspect .containerInfo .dataInfo h3 {
+  font-weight: 400;
+  color: #666;
+  margin: 5px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft .asesor {
+  height: 20%;
+  box-sizing: border-box;
+  text-align: right;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft .asesor span {
+  color: #666;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divideLeft .containerLeft .asesor h3 {
+  font-weight: 400;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight {
+  width: 70%;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .bigText {
+  margin: 40px 0px;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .bigText h1 {
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .bigText h3 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .bigText.Question {
+  width: 70%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .action {
+  width: 50%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .action button {
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid #b5b2b279;
+  background-color: #b5b2b279;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .action button span {
+  font-size: 16px;
+  color: black;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .action button:hover {
+  transform: scale(1.1);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption {
+  margin: 50px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding: 30px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button {
+  width: 20%;
+  position: relative;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button .data {
+  text-align: center;
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button .data button {
+  width: 100%;
+  text-align: center;
+  border-radius: 100%;
+  border: none;
+  background-color: transparent;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button .data button .icon {
+  font-size: 82px;
+  color: #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button .data span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button .OptionForResponse {
+  margin: 30px 0px;
+  position: absolute;
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button .OptionForResponse button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button .OptionForResponse .cancel {
+  background-color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button .OptionForResponse .cancel span {
+  color: white;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button.Question .data button .icon {
+  color: #faff00;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button.Cancel .data button .icon {
+  color: #e74c3c;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .button.True .data button .icon {
+  color: #27ae60;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .containerRight .progressOption .barTry .line {
+  border: 2px solid #ccc;
+  width: 20%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto {
+  box-sizing: border-box;
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form {
+  width: 70%;
+  margin: 50px auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .headerTitle h1 {
+  font-weight: 400;
+  color: #666;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .headerTitle span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerInputs {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerInputs .inputDiv {
+  width: 45%;
+  margin: 20px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerInputs .inputDiv label {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerInputs .inputDiv input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  outline: 0px;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerInputs .inputDiv select {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerInputs .inputDiv input:focus {
+  border: 1px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerButton {
+  width: 100%;
+  margin-top: 40px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerButton button {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #1d80f4;
+  border: 1px solid #1d80f4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerButton button span {
+  color: white;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .modalProspect .containerModal .modalContainer .divRight .prospecto .form .containerButton button:hover {
+  transform: scale(1.1);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #66666679;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange {
+  width: 30%;
+  height: 60vh;
+  margin: auto;
+  margin-top: 15vh;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .header {
+  height: 15%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .header button .icon {
+  font-size: 16px;
+  color: black;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .listAsesors {
+  height: 85%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .listAsesors .containerList {
+  height: 100%;
+  overflow-y: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .listAsesors .containerList .asesor {
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .listAsesors .containerList .asesor .containerAsesor {
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .listAsesors .containerList .asesor .containerAsesor .img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .listAsesors .containerList .asesor .containerAsesor .data h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #6da6e8;
+  font-size: 16px;
+  margin: 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .listAsesors .containerList .asesor .containerAsesor .data span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .changeAsesor .containerChange .listAsesors .containerList .asesor:hover {
+  background-color: #DFEBFF;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector {
+  padding: 20px 0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector nav ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector nav ul li span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector nav ul li.Active {
+  border-bottom: 2px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector nav ul li.Active span {
+  color: #1d80f4;
+  font-weight: 500;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .asesor {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .asesor button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .asesor button .icon {
+  font-size: 18px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .asesor .asesorDiv {
+  display: flex;
+  align-items: center;
+  margin: 0px 40px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .asesor .asesorDiv .wallpaper {
+  margin-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .asesor .asesorDiv .wallpaper img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .asesor .asesorDiv .txt h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .asesor .asesorDiv .txt span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .button {
+  background-color: #1d80f4;
+  border: 1px solid #1d80f4;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients .containerSelector .button span {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .topSelectorClients button:hover {
+  transform: scale(1.1);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 6px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .howMany h3 {
+  font-weight: 400;
+  color: #666;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .filters {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .filters .buttonsFilters button {
+  margin-right: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .filters .buttonsFilters button .icon {
+  font-size: 20px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .filters .buttonsFilters button.Active .icon {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .filters .search {
+  width: 70%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .filters .search button {
+  border-radius: 20px 0px 0px 20px;
+  background-color: white;
+  border: 1px solid white;
+  outline: 0px;
+  cursor: text;
+  width: 20%;
+  border: 1px solid #ccc;
+  border-right: none;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .filters .search button .icon {
+  font-size: 12px;
+  color: #666;
+  font-weight: bold;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .filters .search input {
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0px 20px 20px 0px;
+  border: 1px solid #ccc;
+  border-left: none;
+  outline: 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .orderBy {
+  box-sizing: border-box;
+  width: 40%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .orderBy .containerOrder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .orderBy .containerOrder strong {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .orderBy .containerOrder .orderOptions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .pseudoTopNav .containerPseudo .orderBy .containerOrder .orderOptions button span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .titleHowManyClients {
+  margin: 50px 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .titleHowManyClients .containerTitle h1 {
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .titleHowManyClients .containerTitle h3 {
+  font-weight: 400;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists {
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client {
+  padding: 40px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  width: 24%;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-right: 1%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .header {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .header .img {
+  width: 40%;
+  height: 60px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .header .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .header .info {
+  width: 60%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .header .info h3 {
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .header .info span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .dataClient {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .dataClient .res {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 5px auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .dataClient .res .icono {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .dataClient .res .icono .icon {
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .dataClient .res .title {
+  width: 60%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .dataClient .res .title span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .dataClient .res .respuesta {
+  width: 30%;
+  text-align: right;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client .dataClient .res .respuesta strong {
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .clientsLists .listsContainer .client:hover {
+  transform: translateY(10%);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect {
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData {
+  margin: 40px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .headerBigSeccion {
+  margin: 30px 0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .headerBigSeccion .left h1 {
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .headerBigSeccion .left span {
+  color: #666;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .headerBigSeccion .right {
+  width: 20%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .headerBigSeccion .right select {
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 10px 50px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .box {
+  border: 1px solid #ccc;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .box .containerBox {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .box .containerBox .topBox .icon {
+  margin-right: 10px;
+  font-size: 14px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .box .containerBox .topBox span {
+  font-size: 14px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .box .containerBox .boxContainer {
+  width: 90%;
+  margin: 10px auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .box .containerBox .boxContainer h3 {
+  font-size: 42px;
+  color: white;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .box .containerBox .boxContainer span {
+  color: white;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .One {
+  background-color: #5D6980;
+  border: 1px solid #5D6980;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .Two {
+  background-color: #FE7B8D;
+  border: 1px solid #FE7B8D;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .boxProspectData .containerBoxs .Three {
+  background-color: #7091ED;
+  border: 1px solid #7091ED;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel {
+  display: flex;
+  margin: 50px 0px;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics {
+  width: 65%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics .divide {
+  display: flex;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics .divide .leftData {
+  border: 1px solid black;
+  width: 60%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics .divide .moreAnalytics {
+  width: 35%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics .divide .moreAnalytics .Header h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics .divide .moreAnalytics .Header span {
+  color: #666;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics .divide .moreAnalytics .containerFast {
+  margin: 20px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics .divide .moreAnalytics .containerFast .buttons button {
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .leftAnalytics .divide .moreAnalytics .containerFast .buttons button span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions {
+  width: 30%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage {
+  border: 1px solid #6E62E5;
+  background-color: #6E62E5;
+  width: 100%;
+  padding: 50px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage .topIcon {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage .topIcon .icon {
+  margin-right: 10px;
+  font-size: 32px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage .topIcon .messag {
+  width: 70%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage .topIcon .messag h3 {
+  font-weight: 400;
+  color: white;
+  margin: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage .topIcon .messag span {
+  font-size: 14px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage .topIcon .messag button {
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 20px;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #5D6980;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage .topIcon .messag button span {
+  color: #5D6980;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .dividePanel .rightFastOptions .boxMessage .btn span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav .group {
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav .group nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav .group nav ul li div {
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav .group nav ul li div span {
+  color: #666;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav .group nav ul li.Active div span {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav .filterSelect .containerFilterSelect {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav .filterSelect .containerFilterSelect div {
+  margin: 0px 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .headerTopNavigation .containerNav .filterSelect .containerFilterSelect div select {
+  padding: 8px 14px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .topHeader {
+  padding: 30px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register {
+  margin-top: 40px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table thead tr th {
+  text-align: left;
+  padding: 10px 0px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr {
+  transition: 0.3s;
+  border-bottom: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr .contacto {
+  padding-left: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr td {
+  padding: 10px 0px;
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr td div .icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr td div .icon.WhatsApp {
+  color: #25D366;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr td div span {
+  vertical-align: middle;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr td div span.WhatsApp {
+  color: #25D366;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr td .asesor {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody tr td .asesor img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .componentClients .containerClients .prospect .containerProspect .register .containerRegister .table-container .styled-table tbody .t:hover {
+  background-color: #F3F4ED;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile {
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile {
+  display: flex;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile {
+  width: 63% ;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .topNavigationClient {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .topNavigationClient .containerTopNav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .topNavigationClient .containerTopNav .boxClient {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  margin-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .topNavigationClient .containerTopNav .boxClient img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .topNavigationClient .containerTopNav .res {
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .topNavigationClient .containerTopNav .res h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .topNavigationClient .containerTopNav .res span {
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop {
+  width: 95%;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop nav ul li {
+  display: inline-block;
+  box-sizing: border-box;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop nav ul li div {
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop nav ul li div span {
+  font-size: 14px;
+  color: #666;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop nav ul li.Active {
+  border-bottom: 2px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop nav ul li.Active div span {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop nav ul li:hover {
+  border-bottom: 2px solid #6da6e8;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop nav ul li:hover div span {
+  color: #6da6e8;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop .newProject button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #1d80f4;
+  background-color: #1d80f4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop .newProject button .icon {
+  font-size: 18px;
+  margin-right: 5px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .pseudoTop .containerPseudoTop .newProject button span {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation {
+  width: 95%;
+  margin-left: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation {
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search {
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .howMany h3 {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .searchInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .searchInput .filters {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .searchInput .filters button {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .searchInput .filters button span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .searchInput .input {
+  width: 70%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .searchInput .input input {
+  width: 100%;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #666;
+  outline: 0px;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .searchInput .input input:focus {
+  transform: translateX(5%);
+  border: 1px solid #1d80f4;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .search .containerSearch .orderBy select {
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  padding: 6px 10px;
+  background-color: transparent;
+  border: 1px solid #1d80f4;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project {
+  border: 1px solid #ccc;
+  width: 48%;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header {
+  width: 100%;
+  display: flex;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .data {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .data .nomenclatura {
+  width: 15%;
+  height: 30px;
+  background-color: #666;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .data .nomenclatura h3 {
+  margin: 0px;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .data .res {
+  width: 85%;
+  padding: 5px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .data .res h3 {
+  font-size: 16px;
+  margin: 0px;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .data .res span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .state {
+  width: 20%;
+  border: 1px solid black;
+  text-align: right;
+  display: contents;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .state button {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .header .state button .icon {
+  color: green;
+  font-size: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .desc {
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .desc .optionDesc {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .desc .optionDesc strong {
+  font-weight: 500;
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .desc span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .bottomActions {
+  padding: 10px 0px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  text-align: right;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .bottomActions .containerActions button {
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .bottomActions .containerActions button span {
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .bottomActions .containerActions .go {
+  border: 1px solid #1d80f4;
+  background-color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .bottomActions .containerActions .go span {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .bottomActions .containerActions .details {
+  border: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .listProjects .containerLists .lista .containerLista .project .bottomActions .containerActions .details span {
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .multimedia .containerMultimedia {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .multimedia .containerMultimedia .media {
+  width: 20%;
+  height: 150px;
+  margin-right: 4%;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .multimedia .containerMultimedia .media img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .PrincipalContainerProfile .resNavigation .containerResNavigation .multimedia .containerMultimedia .media:hover {
+  transform: scale(1.1);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer {
+  width: 35%;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .newProject {
+  margin-top: 80px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .newProject .header {
+  padding: 10px 0px;
+  border-bottom: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .newProject .header h1 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .newProject .header span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .newProject .action {
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .newProject .action button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .newProject .action button span {
+  color: #1d80f4;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .box {
+  margin-top: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .box .containerBox .headerBox {
+  padding: 40px 20px;
+  box-sizing: border-box;
+  background-color: #1d80f4;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #1d80f4;
+  border-bottom: none;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .box .containerBox .headerBox h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .box .containerBox .desc {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-bottom: none;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .box .containerBox .desc span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .box .containerBox .action {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .box .containerBox .action button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #1d80f4;
+  border-radius: 20px;
+  padding: 8px 20px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .containerProfile .rightDivContainer .containerR .box .containerBox .action button span {
+  font-size: 12px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #66666679;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject {
+  width: 80%;
+  height: 90vh;
+  margin: 5vh auto;
+  border-radius: 10px;
+  background-color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .headerClose {
+  height: 10%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  justify-content: end;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .headerClose button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .headerClose button .icon {
+  font-size: 18px;
+  color: black;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm {
+  height: 75%;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .divContainerForm {
+  width: 50%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .divContainerForm .inputDivs .messageInput {
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .divContainerForm .inputDivs .messageInput h1 {
+  font-weight: 400;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .divContainerForm .inputDivs .messageInput span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .divContainerForm .inputDivs .inputContainer {
+  margin-top: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .divContainerForm .inputDivs .inputContainer label {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .divContainerForm .inputDivs .inputContainer input {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #DFEBFF;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .divContainerForm .inputDivs .inputContainer select {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject {
+  width: 60%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .messageInput h1 {
+  font-weight: 400;
+  color: #666;
+  margin: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .messageInput span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .inputText {
+  font-size: 12px;
+  color: #666;
+  margin-top: 40px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .inputText textarea {
+  resize: none;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  outline: 0px;
+  margin-top: 10px;
+  height: 200px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .tags {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .tags .tag {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .tags .tag span {
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .tags .tag:hover {
+  border: 1px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .tags .tag:hover span {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .tags .tag.Active {
+  border: 2px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .containerForm .containerDescriptionProject .boxContainer .tags .tag.Active span {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .btnDiv {
+  height: 15%;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .btnDiv .containerBtn {
+  width: auto;
+  text-align: right;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .btnDiv .containerBtn button {
+  background-color: #1d80f4;
+  border: 1px solid #1d80f4;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .btnDiv .containerBtn button span {
+  font-size: 14px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .btnDiv .containerBtn .back {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .clientProfile .newProjectNodal .containerNewProject .btnDiv .containerBtn .back span {
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect {
+  width: 95%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  padding-right: 50px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .leftTop {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .leftTop button {
+  padding: 0px 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .leftTop button .icon {
+  color: #666;
+  font-size: 22px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .leftTop .nameProject h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .clientName {
+  width: 30%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .clientName .logo {
+  width: 60px;
+  height: 60px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .clientName .logo img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .clientName .res {
+  text-align: left;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .clientName .res h2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .back .clientName .res span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide {
+  display: flex;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer {
+  width: 65%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft {
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast {
+  text-align: right;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast nav {
+  width: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast nav ul li {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast nav ul li div {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast nav ul li div .icon {
+  margin-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast nav ul li div span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast nav ul li.button {
+  border-radius: 20px;
+  background-color: #1d80f4;
+  border: 1px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast nav ul li.button div span {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .navTopFast nav ul li.button div .icon {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .Objetivos {
+  background-color: #DFEBFF;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .Objetivos .title {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .Objetivos .title button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .Objetivos .title button .icon {
+  font-size: 18px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .Objetivos .res span {
+  font-size: 14px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .Objetivos .res button {
+  margin-top: 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .Objetivos .res button span {
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress {
+  padding: 10px 0px;
+  margin-bottom: 40px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .header h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados {
+  margin-top: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item {
+  height: auto;
+  border-left: 3px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex {
+  display: flex;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .leftIcon {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .leftIcon button {
+  margin-left: -22px;
+  border: none;
+  padding: 0px;
+  background-color: #1d80f4;
+  border-radius: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .leftIcon button .icon {
+  font-size: 20px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .asesor {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .asesor .nomenclatura {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .asesor .nomenclatura h3 {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .asesor .name {
+  margin-left: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .asesor .name h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .type {
+  margin-left: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .type h3 {
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .time {
+  margin-left: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .flex .accion .time span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .progressAndNotes {
+  width: 91%;
+  padding: 10px 0px;
+  margin-left: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .progressAndNotes .move {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .progressAndNotes .move .leftI .icon {
+  font-size: 20px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .progressAndNotes .move .moveDesc {
+  margin-left: 20px;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .progressAndNotes .move .moveDesc h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .progressAndNotes .move .moveDesc span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .leftContainer .containerLeft .progress .containerProgress .resultados .containerResultados .principalItem .item .progressAndNotes .move:hover {
+  background-color: #f4f1f1;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer {
+  width: 30%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast {
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav .boxText {
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav .boxText h3 {
+  font-weight: 400;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav ul li {
+  display: flex;
+  box-sizing: border-box;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav ul li .div {
+  padding: 20px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav ul li .div div {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav ul li .div div span {
+  font-size: 13px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav ul li .div div .icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav ul li .div .icon {
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .containerProyect .divideTop .containerDivide .rightContainer .navigationFast nav ul li:hover {
+  transform: translateX(5%);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #66666679;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 5vh;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .header {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .header .title h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .header button .icon {
+  font-size: 18px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal {
+  height: 90%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note {
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote {
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left {
+  width: 65%;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft {
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form {
+  height: 90%;
+  overflow-y: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .txtBig {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .txtBig .icono .icon {
+  font-size: 42px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .txtBig .textBig {
+  margin-left: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .txtBig .textBig h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .txtBig .textBig span {
+  color: #666;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .boxInputs {
+  margin-top: 30px;
+  width: 95%;
+  margin-left: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .boxInputs .inputDiv {
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .boxInputs .inputDiv label {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .boxInputs .inputDiv input {
+  margin-top: 10px;
+  border: none;
+  outline: 0px;
+  font-size: 12px;
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .boxInputs .inputDiv input:focus {
+  transform: translateX(5%);
+  border: 1px solid #1d80f4;
+  font-weight: bold;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .boxInputs .inputDiv textarea {
+  border-radius: 10px;
+  resize: none;
+  border: 1px solid #ccc;
+  height: 100px;
+  margin-top: 10px;
+  width: 80%;
+  outline: 0px;
+  transition: 0.3s;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: black;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .form .boxInputs .inputDiv :focus {
+  transform: translateX(5%);
+  border: 1px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .btn {
+  height: 10%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .btn button {
+  padding: 8px 20px;
+  background-color: #1d80f4;
+  border: 1px solid #1d80f4;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .left .containerLeft .btn button span {
+  color: white;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right {
+  width: 35%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .title {
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .title strong {
+  font-weight: 400;
+  color: #666;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .created {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 20px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .created .img {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .created .img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .created .img h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .created .img span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .time {
+  width: 90%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .time .inputDate {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .time .inputDate span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .option select {
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border: 1px solid #1d80f4;
+  background-color: transparent;
+  color: #1d80f4;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .aviso {
+  width: 90%;
+  margin-top: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .note .containerNote .divide .right .aviso span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance {
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance {
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide {
+  width: 100%;
+  overflow: hidden;
+  height: 90%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions {
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .headerFirst {
+  padding: 30px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .headerFirst h1 {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .headerFirst span {
+  color: #666;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .firstContainer {
+  width: 100%;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .firstContainer .box {
+  width: 30%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .firstContainer .box .iconBox {
+  width: 100%;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .firstContainer .box .iconBox .icon {
+  font-size: 32px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .firstContainer .box .desc {
+  padding: 10px 0px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .firstContainer .box .desc h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .firstContainer .box .desc span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .firstOptions .firstContainer .box.Active {
+  border: 1px solid #1d80f4;
+  transform: scale(1.1);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  box-sizing: border-box;
+  margin-top: 2px;
+  border: 1px solid white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .topTitle {
+  height: 25%;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .topTitle h1 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .topTitle h3 {
+  font-weight: 400;
+  color: #666;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister {
+  display: flex;
+  justify-content: space-between;
+  height: 75%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .leftDivs {
+  width: 40%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .leftDivs .wallpaper {
+  text-align: center;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .leftDivs .wallpaper .icon {
+  font-size: 62px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .leftDivs .smallForm {
+  padding: 20px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .leftDivs .smallForm .inputDiv {
+  margin-bottom: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .leftDivs .smallForm .inputDiv label {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .leftDivs .smallForm .inputDiv input {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .leftDivs .smallForm .inputDiv select {
+  width: 70%;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid #666;
+  color: #666;
+  margin-top: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs {
+  padding: 10px 10px;
+  box-sizing: border-box;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs label {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs .txt {
+  height: 200px;
+  margin-top: 10px;
+  transition: 0.3s;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  outline: 0px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 12px;
+  resize: none;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs textarea:focus {
+  transform: scale(1.1);
+  border: 1px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs .tags {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs .tags .tag {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs .tags .tag span {
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs .tags .tag:hover {
+  border: 1px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs .tags .tag:hover span {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs .tags .tag.Active {
+  border: 2px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .slide .horizontal .twoOption .containerTwoOption .callRegister .rightDivs .formRight .inputDivs .tags .tag.Active span {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .buttonDiv {
+  height: 10%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .buttonDiv button {
+  padding: 10px 30px;
+  background-color: #1d80f4;
+  border: 1px solid #1d80f4;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .buttonDiv button span {
+  font-size: 14px;
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .buttonDiv .off {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  cursor: default;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .buttonDiv .off span {
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .buttonDiv .others .left {
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .modalProject .containerModalProject .containerModal .avance .containerAvance .buttonDiv .others .left span {
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight {
+  position: fixed;
+  border-left: 1px solid #ccc;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: white;
+  width: 50%;
+  transition: 0.3s;
+  transform: translateX(100%);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0px 10px;
+  height: 10%;
+  border-bottom: 1px solid #ccc;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .header button .icon {
+  font-size: 24px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing {
+  height: 90%;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote {
+  box-sizing: border-box;
+  width: 90%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote {
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .iconAndSmall {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .iconAndSmall .icon {
+  font-size: 16px;
+  color: #666;
+  margin-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .iconAndSmall span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .titleNote {
+  padding: 20px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .titleNote h1 {
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .titleNote .notePlus {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .titleNote .notePlus button {
+  margin-right: 10px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .titleNote .notePlus button span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .titleNote .notePlus button .icon {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .titleNote .notePlus .priority {
+  border: 1px solid #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .titleNote .notePlus .priority span {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .userBox {
+  padding: 20px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .userBox .containerUser {
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .userBox .containerUser img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .userBox .containerUser .res {
+  margin-left: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .userBox .containerUser .res h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .userBox .containerUser .res h3 strong {
+  color: #1d80f4;
+  font-size: 12px;
+  font-weight: 400;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .userBox .containerUser .res span {
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .noteDescription {
+  margin-top: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .slideBoxRight .containerRightMove .everithing .seeNote .seeContainer .headerNote .noteDescription span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .sliderBoxRightActive {
+  transform: translateX(0%);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics {
+  height: 100%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle {
+  height: 50%;
+  box-sizing: border-box;
+  background-color: #F3F4ED;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .close {
+  width: 100%;
+  text-align: right;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .close button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .close button .icon {
+  font-size: 24px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide {
+  display: flex;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .left {
+  width: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .left .containerLeft {
+  width: 90%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .left .containerLeft .topMessage {
+  padding: 30px 0px;
+  padding-bottom: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .left .containerLeft .topMessage h1 {
+  font-weight: 300;
+  font-size: 26px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .left .containerLeft .data span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .left .containerLeft .data h1 {
+  font-weight: 300;
+  font-size: 42px;
+  margin: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .left .containerLeft .data h1 strong {
+  font-size: 52px;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results {
+  width: 30%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results .resultsContainer {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results .resultsContainer .header {
+  margin: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results .resultsContainer .header h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results .resultsContainer .listResults .containerLists {
+  margin-top: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results .resultsContainer .listResults .containerLists .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results .resultsContainer .listResults .containerLists .item .pointItem .icon {
+  color: #1d80f4;
+  margin-right: 20px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results .resultsContainer .listResults .containerLists .item .pointItem span {
+  font-size: 14px;
+  color: #666;
+  vertical-align: middle;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .results .resultsContainer .listResults .containerLists .item .resultItem span {
+  font-size: 14px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor {
+  width: 30%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor .boxAsesor {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor .boxAsesor .header {
+  margin: 10px 0px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor .boxAsesor .header h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor .boxAsesor .asesorDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor .boxAsesor .asesorDiv .img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor .boxAsesor .asesorDiv .img img {
+  width: 100%;
+  height: 60px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor .boxAsesor .asesorDiv .resAsesor h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .topMiddle .containerMiddleTop .divide .asesor .boxAsesor .asesorDiv .resAsesor span {
+  color: #666;
+  font-size: 12px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle {
+  height: 50%;
+  box-sizing: border-box;
+  padding: 20px 0px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .descProject {
+  width: 30%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .descProject .containerDescProject {
+  width: 100%;
+  margin: 40px auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .descProject .containerDescProject h1 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .descProject .containerDescProject span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject {
+  width: 30%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject .containerState {
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject .containerState .header {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject .containerState .header h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject .containerState .resState .item {
+  box-sizing: border-box;
+  width: 95%;
+  margin-left: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject .containerState .resState .item span {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject .containerState .resState .item span strong {
+  color: black;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject .containerState .resState .item button {
+  border-radius: 20px;
+  padding: 5px 0px;
+  background-color: transparent;
+  border: none;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .stateProject .containerState .resState .item button span {
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .download {
+  width: 25%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .download .containerDownload .header {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .download .containerDownload .header h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .download .containerDownload .btn {
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .download .containerDownload .btn button {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .clients .proyect .analytics .containerAnalytics .bottomMiddle .containerBottomMiddle .download .containerDownload .btn button span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel {
+  width: 100%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email {
+  width: 100%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail {
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail {
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .topMessage {
+  padding: 20px 0px;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .topMessage button {
+  background-color: #1d80f4;
+  border: 1px solid #1d80f4;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 20px;
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .topMessage button span {
+  color: white;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .optionsNav {
+  width: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .optionsNav nav ul li {
+  display: flex;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .optionsNav nav ul li div {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .optionsNav nav ul li div .icon {
+  font-size: 16x;
+  color: #666;
+  margin-right: 20px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .optionsNav nav ul li div span {
+  font-size: 14px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .leftOptionsEmail .optionsNav nav ul li:hover {
+  background-color: #DFEBFF;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail {
+  width: 80%;
+  height: 85vh;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox {
+  background-color: #F4F6F8;
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  box-sizing: border-box;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .topInput {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  width: 95%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .topInput input {
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: 0.3s;
+  outline: 0px;
+  background-color: #e4e6e8;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .topInput input:focus {
+  border: 2px solid #1d80f4;
+  transform: scale(1.05);
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega {
+  box-sizing: border-box;
+  height: 85%;
+  overflow-y: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja {
+  width: 95%;
+  margin: auto;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item.New {
+  background-color: #e4e6e8;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #F4F6F8;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .userAndMesa {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .userAndMesa .wallpaper {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .userAndMesa .wallpaper img {
+  width: 100%;
+  height: 40px;
+  border-radius: 100%;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .userAndMesa .nameAndMess h3 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .userAndMesa .nameAndMess h3 span {
+  margin-left: 10px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .userAndMesa .nameAndMess span {
+  font-size: 12px;
+  color: #666;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .notification {
+  width: 15%;
+  text-align: center;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .notification span {
+  font-size: 12px;
+  color: #666;
+  vertical-align: middle;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .notification button {
+  vertical-align: middle;
+  border-radius: 100%;
+  border: none;
+  background-color: transparent;
+  margin-left: 5px;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item .notification button .icon {
+  font-size: 22px;
+  color: #1d80f4;
+}
+.panelCrm .containerPanel .containerDataPanel .divPanel .containerScroll .emailPanel .email .containerEmail .rightBoxEmail .containerRightBox .bandejaEntrega .containerBandeja .item:hover {
+  transform: scale(1.04);
+}
