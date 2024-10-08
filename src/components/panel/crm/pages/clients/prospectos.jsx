@@ -20,6 +20,20 @@ export default function Prospectos(props){
         const sendPetition =  dispatch(action.AxiosGetProspects(business.id, user.id, !params.get('time') ? month : params.get('time'), false, val));
         return sendPetition;
     }
+
+    const showFilter = (filter) => {
+        document.querySelector('#header').scrollIntoView({
+            behavior: 'smooth'
+        });
+        if(!filter){
+            params.delete('filter');
+            setParams(params);
+        }else{
+            params.set('filter', filter)
+            setParams(params);
+
+        }
+    }
     return (
         <div className="prospect">
                 <div className="containerProspect">
@@ -52,7 +66,9 @@ export default function Prospectos(props){
                         </div>
                     </div>
                     <div className='containerBoxs'>
-                        <div className='box One'>
+                        <div className='box One' onClick={() => {
+                            showFilter()
+                        }}>
                             <div className='containerBox'>
                                 <div className='topBox'>
                                     <BsWindow className='icon' />
@@ -68,7 +84,7 @@ export default function Prospectos(props){
                                 </div>
                             </div>
                         </div>
-                        <div className='box Two'>
+                        <div className='box Two' onClick={() => showFilter('contactados')}>
                             <div className='containerBox'>
                                 <div className='topBox'>
                                     <BsWindow className='icon' />
@@ -115,8 +131,8 @@ export default function Prospectos(props){
 
                                     <div className='buttons'>
                                         <button onClick={() => {
-                                            params.set('move', 'show');
-                                            setParams(params);
+                                            // params.set('move', 'show');
+                                            // setParams(params);
                                         }}>
                                             <span>Visualizar gráfica</span>
                                         </button>
@@ -143,7 +159,7 @@ export default function Prospectos(props){
                         </div>
                     </div>
                 </div>
-                <div className='headerTopNavigation'>
+                <div className='headerTopNavigation' id="header">
                     <div className='containerNav'>
                         <div className='group'>
                             <nav>

@@ -35,7 +35,7 @@ export default function ChangeAsesor(props){
                                 </div>
                             </div>
                         </div>
-                        <div className='asesor' onClick={() => changeUser(3, 'true')}>
+                        <div className='asesor' onClick={() => changeUser(4, 'true')}>
                             <div className='containerAsesor'>
                                 <div className='img'>
                                     <img src="" alt="" />
@@ -46,7 +46,7 @@ export default function ChangeAsesor(props){
                                 </div>
                             </div>
                         </div>
-                        <div className='asesor' onClick={() => changeUser(4, 'true')}>
+                        <div className='asesor' onClick={() => changeUser(3, 'true')}>
                             <div className='containerAsesor'>
                                 <div className='img'>
                                     <img src="" alt="" />
