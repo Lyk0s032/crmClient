@@ -24,24 +24,35 @@ export default function ChangeAsesor(props){
                 </div>
                 <div className='listAsesors'>
                     <div className='containerList'>
-                        <div className='asesor' onClick={() => changeUser(1, 'true')}>
+                        <div className='asesor' onClick={() => changeUser(2, 'true')}>
                             <div className='containerAsesor' >
                                 <div className='img'>
                                     <img src="" alt="" />
                                 </div>
                                 <div className='data'>
-                                    <h3>Kevin Andrés</h3>
+                                    <h3>Bryan Franco</h3>
                                     <span>Asesor</span>
                                 </div>
                             </div>
                         </div>
-                        <div className='asesor' onClick={() => changeUser(2, 'true')}>
+                        <div className='asesor' onClick={() => changeUser(3, 'true')}>
                             <div className='containerAsesor'>
                                 <div className='img'>
                                     <img src="" alt="" />
                                 </div>
                                 <div className='data'>
-                                    <h3>Kevin Andrés</h3>
+                                    <h3>Adriana</h3>
+                                    <span>Asesor</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='asesor' onClick={() => changeUser(4, 'true')}>
+                            <div className='containerAsesor'>
+                                <div className='img'>
+                                    <img src="" alt="" />
+                                </div>
+                                <div className='data'>
+                                    <h3>Maicol</h3>
                                     <span>Asesor</span>
                                 </div>
                             </div>
