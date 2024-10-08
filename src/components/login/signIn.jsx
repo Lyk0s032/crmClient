@@ -1,10 +1,12 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { signIn, auth } from "../js/movimientos";
+import { useNavigate } from "react-router-dom";
 
 export default function SignIn(){
     const [form, setForm] = useState('email');
     const [loading, setLoading] = useState(false);
+    const navigate = useNavigate();
     const [data, setData] = useState({
         email: null,
         messageEmail: null,
@@ -66,7 +68,8 @@ export default function SignIn(){
                     // const token = await SecureStore.getItemAsync('token');
                     window.localStorage.setItem("loggedPeople", JSON.stringify(result.data.data));
                     // return validateToken()
-                    return 'Logueado'
+                    
+                    return 'true'
                 }
 
 
@@ -86,7 +89,7 @@ export default function SignIn(){
             console.log(err);
             return null
         });
-        return sign
+        sign == 'true' ? navigate('e/b/') : null
         
     }
 
