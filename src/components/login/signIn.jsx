@@ -89,7 +89,7 @@ export default function SignIn(){
             console.log(err);
             return null
         });
-        sign == 'true' ? navigate('e/b/') : null
+        sign == 'true' ? navigate('/e/b/') : null
         
     }
 
